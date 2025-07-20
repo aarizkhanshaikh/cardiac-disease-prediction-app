@@ -39,30 +39,11 @@ This repository contains a web application designed to predict the likelihood of
 
 ---
 
-## 📂 Project Structure
+POV:
 
-```
-
-cardiac-disease-prediction-app/
-├── app.py                  # Main Flask/Streamlit application file
-├── model/
-│   └── cardiac\_model.pkl   # Trained ML model
-├── static/
-│   ├── css/
-│   │   └── style.css       # Custom CSS
-│   └── js/
-│       └── script.js       # Custom JavaScript
-├── templates/
-│   └── index.html          # HTML templates
-├── data/
-│   └── heart\_disease\_data.csv  # Dataset used for training
-├── notebooks/
-│   └── model\_training.ipynb    # EDA and model training notebook
-├── requirements.txt        # Python dependencies
-├── README.md               # This README file
-└── .gitignore              # Git ignore file
-
-````
+<img width="1919" height="912" alt="Screenshot 2025-07-20 060158" src="https://github.com/user-attachments/assets/50f7db40-7910-4f58-85bb-adda7f79f21c" />
+<img width="1356" height="742" alt="Screenshot 2025-07-20 060303" src="https://github.com/user-attachments/assets/1f8e9c9f-9070-424b-aef8-2c8e5ab57f1f" />
+<img width="1920" height="1080" alt="Screenshot (196)" src="https://github.com/user-attachments/assets/aefb0b70-29bd-4275-9a6c-3a47080ec0f9" />
 
 ---
 
@@ -125,6 +106,14 @@ This project uses the **UCI Heart Disease Dataset** (or a similar dataset), whic
 * `exang` (exercise-induced angina)
 * `oldpeak` (ST depression)
 * `slope`, `ca`, `thal`, and `target`
+
+Dataset Info:
+
+<img width="950" height="818" alt="Screenshot 2025-07-20 033800" src="https://github.com/user-attachments/assets/cc68e611-4506-4b0f-a242-beafead6d033" />
+<img width="758" height="593" alt="Screenshot 2025-07-20 033711" src="https://github.com/user-attachments/assets/d95ad165-8e54-44dd-a862-454f50d1f728" />
+<img width="758" height="462" alt="Screenshot 2025-07-20 033856" src="https://github.com/user-attachments/assets/75311029-9b69-455d-909c-efa8c13bf619" />
+<img width="762" height="467" alt="Screenshot 2025-07-20 033848" src="https://github.com/user-attachments/assets/83a48c92-cfa2-4e05-8aae-6d84b805a157" />
+
 
 ---
 
