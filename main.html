@@ -99,7 +99,7 @@
             featureNames.forEach(name => data[name] = parseFloat(formData.get(name)));
 
             try {
-                // IMPORTANT: Replace this URL with your live PythonAnywhere URL
+                // Corrected URL with the /predict endpoint
                 const response = await fetch('http://aariz92shaikh.pythonanywhere.com/predict', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
